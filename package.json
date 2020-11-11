@@ -19,7 +19,6 @@
     "lint": "eslint src/js",
     "lint:fix": "npm run lint -- --fix",
     "purge": "purgecss --config purgecss.config.js --output dist/css",
-    "pm2": "pm2 start ./dist/server.js --watch=true",
     "start": "npm run dev"
   },
   "dependencies": {
