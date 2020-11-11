@@ -133,7 +133,7 @@ files.forEach(file => {
     new HtmlWebPackPlugin({
       filename: path.basename(file),
       template: file,
-      favicon: path.resolve(__dirname, './src/img/favicon.png'),
+      favicon: path.resolve(__dirname, './src/public/img/favicon.png'),
       minify: !IS_DEV,
     })
   );
